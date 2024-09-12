@@ -35,7 +35,7 @@ namespace SuiviEtatObjet
             Console.WriteLine("\nHistorique des modifications:");
             foreach (var modification in historique)
             {
-                Console.WriteLine($"Objet utilisateur {modification.User.Nom}: Ancien état = {modification.AncienEtat}, Nouvel état = {modification.NouvelEtat}, Date = {modification.DateModification}");
+                Console.WriteLine($"Utilisateur user {modification.User.Nom}, Prénom = {modification.User.Prenom}, Pseudo = {modification.User.Pseudo} : Ancien état = {modification.AncienEtat}, Nouvel état = {modification.NouvelEtat}, Date = {modification.DateModification}");
             }
 
             // Attente de la fin de l'exécution
