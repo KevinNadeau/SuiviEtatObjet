@@ -37,7 +37,6 @@ namespace SuiviEtatObjet
             {
                 Console.WriteLine($"Utilisateur user {modification.User.Nom}, Prénom = {modification.User.Prenom}, Pseudo = {modification.User.Pseudo} : Ancien état = {modification.AncienEtat}, Nouvel état = {modification.NouvelEtat}, Date = {modification.DateModification}");
             }
-
             // Attente de la fin de l'exécution
             Console.WriteLine("\nAppuyez sur une touche pour quitter...");
             Console.ReadKey();
